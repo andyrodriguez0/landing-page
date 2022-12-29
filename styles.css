@@ -1,0 +1,90 @@
+
+.header {
+    display: flex;
+    background-color: rgb(250, 250, 250);
+    align-items: center;
+}
+
+.backpack {
+    height: 75px;
+    width: auto;
+    border-radius: 5px;
+}
+
+.header > .left {
+    padding: 10px;
+}
+
+.name {
+    font-size: 24px;
+    color: rgb(50, 50, 50);
+}
+
+.description {
+    color: rgb(100, 100, 100); 
+}
+
+.header > .right {
+    margin-left: auto;
+    display: flex;
+    gap: 10px;
+    color: rgb(50, 50, 50);}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: solid;
+}
+
+.main > .left {
+    flex-basis: 500px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main > .right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main > .right > .top {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.main > .right > .bottom {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.claudia {
+    height: 175px;
+    width: auto;
+}
+
+.mit {
+    height: 175px;
+    width: auto;
+}
+
+.couch {
+    height: 175px;
+    width: auto;
+}
+
+.rico {
+    height: 175px;
+    width: auto;
+}
