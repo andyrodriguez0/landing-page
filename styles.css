@@ -16,7 +16,7 @@
 }
 
 .name {
-    font-size: 24px;
+    font-size: 2vw;
     color: rgb(50, 50, 50);
 }
 
@@ -72,19 +72,23 @@ ul {
 .claudia {
     height: 175px;
     width: auto;
+    background-size: contain;
 }
 
 .mit {
     height: 175px;
     width: auto;
+    background-size: contain;
 }
 
 .couch {
     height: 175px;
     width: auto;
+    background-size: contain;
 }
 
 .rico {
     height: 175px;
     width: auto;
+    background-size: contain;
 }
